@@ -26,6 +26,8 @@ and use js2json commend to convert:
 
 ```bash
 $ cat a.json | js2json
+```
+```json
 {
   "str": "str",
   "num": 1,
@@ -47,7 +49,7 @@ $ cat a.json | js2json
 
 ## for Vim user
 
-```vimrc
+```viml
 autocmd FileType json setlocal formatprg=js2json|jsonmatter " npm i @hotoo/js2json jsonmatter -g
 ```
 
