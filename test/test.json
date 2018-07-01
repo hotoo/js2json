@@ -1,0 +1,13 @@
+{
+  str: 'str',
+  num: 1,
+  boo: true,
+  nil: null,
+  arr: [0, '1', true],
+  obj: {
+    str: 'obj.str',
+    num: 1.2,
+    boo: false,
+    nil: null,
+  },
+}

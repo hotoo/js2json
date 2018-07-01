@@ -1,0 +1,22 @@
+{
+  "name": "@hotoo/js2json",
+  "version": "1.0.0",
+  "description": "Convert JavaScript Object to JSON format",
+  "main": "index.js",
+  "bin": {
+    "js2json": "./bin/js2json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hotoo/js2json.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JSON"
+  ],
+  "author": "闲耘 <hotoo.cn@gmail.com>",
+  "license": "MIT"
+}

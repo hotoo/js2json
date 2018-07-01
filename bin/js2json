@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const JS2JSON = require('../lib/js2json');
+
+process.stdin
+  .pipe(new JS2JSON(2))
+  .pipe(process.stdout);
