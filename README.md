@@ -15,7 +15,7 @@ copy js object into a.json file:
   arr: [0, '1', true],
   obj: {
     str: 'obj.str',
-    num: 2,
+    num: 1.2,
     boo: false,
     nil: null,
   },
